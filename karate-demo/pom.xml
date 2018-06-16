@@ -101,8 +101,20 @@
             <groupId>org.apache.geronimo.specs</groupId>
             <artifactId>geronimo-jms_1.1_spec</artifactId>
             <version>1.1.1</version>
-        </dependency>                                                           		
+        </dependency>
+        <dependency>
+            <groupId>io.aexp.nodes.graphql</groupId>
+            <artifactId>nodes</artifactId>
+            <version>0.1.0</version>
+        </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>bintray-americanexpress-maven</id>
+            <url>https://dl.bintray.com/americanexpress/maven</url>
+        </repository>
+    </repositories>
 
     <build>
         <testResources>
